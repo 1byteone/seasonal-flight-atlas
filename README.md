@@ -66,7 +66,7 @@ npm run preview
 - Build Command：`npm run build`
 - Output Directory：`dist`
 
-通过 GitHub 导入仓库后即可部署。部署完成后，把最终的 `*.vercel.app` 地址补充到本 README 的“在线体验”部分。
+当前生产 Demo 为 <https://gs-ai-apps-dev.vercel.app>。后续从 GitHub 导入仓库后，可使用同样的构建配置继续部署。
 
 ## 音频授权
 
