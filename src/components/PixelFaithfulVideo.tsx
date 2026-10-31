@@ -124,7 +124,6 @@ export const PixelFaithfulVideo = forwardRef<PixelFaithfulVideoHandle, PixelFait
       <div className="video-frame">
         <video
           ref={videoRef}
-          src={scene.videoSrc}
           poster={scene.poster}
           muted
           playsInline
@@ -136,7 +135,9 @@ export const PixelFaithfulVideo = forwardRef<PixelFaithfulVideoHandle, PixelFait
           onEnded={() => onSegmentEnd?.()}
           onError={() => setHasError(true)}
           aria-label={`${scene.place}, ${scene.country} video`}
-        />
+        >
+          <source src={scene.videoSrc} type="video/mp4" />
+        </video>
         {hasError && <div className="video-error"><AlertCircle size={18} /><strong>素材暂时无法播放</strong><span>场景文字仍可继续浏览</span><button type="button" onClick={() => { setHasError(false); videoRef.current?.load() }}>重新加载</button></div>}
         {!hasError && !isReady && <div className="video-loading"><span className="loading-line" /><span className="loading-line loading-line--short" /></div>}
       </div>

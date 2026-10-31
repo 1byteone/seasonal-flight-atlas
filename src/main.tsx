@@ -70,8 +70,10 @@ function ScenePreview({ scene, index, isActive, onSelect }: { scene: (typeof atl
     aria-current={isActive ? 'true' : undefined}
   >
     <span className="filmstrip-thumb">
-      <img src={scene.poster} alt="" />
-      <video ref={previewRef} src={scene.videoSrc} muted playsInline preload="none" onLoadedMetadata={handleMetadata} onTimeUpdate={handleTimeUpdate} aria-hidden="true" />
+      <span className="filmstrip-poster" style={{ backgroundImage: `url("${scene.poster}")` }} aria-hidden="true" />
+      <video ref={previewRef} muted playsInline preload="none" onLoadedMetadata={handleMetadata} onTimeUpdate={handleTimeUpdate} aria-hidden="true">
+        <source src={scene.videoSrc} type="video/mp4" />
+      </video>
     </span>
     <span className="filmstrip-label">{String(index + 1).padStart(2, '0')} / {scene.placeZh}</span>
   </button>
