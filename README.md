@@ -4,7 +4,7 @@
 
 ## 在线体验
 
-- Demo：<https://seasonal-flight-atlas.vercel.app>
+- Demo：<https://gs-ai-apps-dev.vercel.app>
 - GitHub：<https://github.com/1byteone/seasonal-flight-atlas>
 
 ## 效果预览
