@@ -4,7 +4,7 @@
 
 ## 在线体验
 
-- Demo：<https://gs-ai-apps-dev.vercel.app>
+- Demo：<https://seasonal-flight-atlas.vercel.app>
 - GitHub：<https://github.com/1byteone/seasonal-flight-atlas>
 
 ## 效果预览
@@ -66,7 +66,7 @@ npm run preview
 - Build Command：`npm run build`
 - Output Directory：`dist`
 
-当前生产 Demo 为 <https://gs-ai-apps-dev.vercel.app>。后续从 GitHub 导入仓库后，可使用同样的构建配置继续部署。
+当前生产 Demo 为 <https://seasonal-flight-atlas.vercel.app>。项目已关闭 Vercel 登录保护，访客无需登录即可浏览视频、海报和音频资源。
 
 ## 音频授权
 
