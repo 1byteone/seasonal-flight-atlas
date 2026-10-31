@@ -1,0 +1,32 @@
+# Dependencies and generated output
+node_modules/
+dist/
+.vite/
+*.tsbuildinfo
+vite.config.js
+vite.config.d.ts
+.chrome-shot/
+
+# Local inspection, QA and source material
+.video-inspect/
+.video-qa/
+asset/
+
+# Legacy assets from the previous MyLife prototype
+public/mascot/
+public/avatar.png
+public/pinterest-mascot-reference.png
+public/tuanzi-sprite.png
+
+# Unused source masters and optional tracks
+public/atlas/atlas-montage.mp4
+public/assets/audio/*.wav
+public/assets/audio/*.ogg
+public/assets/audio/peace-of-mind.mp3
+public/assets/audio/relaxing-piano-music.mp3
+
+# Local screenshots and prototypes; keep documented screenshots
+*.png
+!docs/screenshots/*.png
+*.jpg
+!public/atlas/posters/*.jpg
