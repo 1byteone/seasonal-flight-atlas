@@ -4,7 +4,7 @@
 
 ## 在线体验
 
-- Demo：部署完成后会在这里更新 Vercel 地址
+- Demo：<https://gs-ai-apps-dev.vercel.app>
 - GitHub：<https://github.com/1byteone/seasonal-flight-atlas>
 
 ## 效果预览
